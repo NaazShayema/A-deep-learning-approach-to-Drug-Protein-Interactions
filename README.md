@@ -14,6 +14,8 @@ Dataset preparation:
 - Non_Interactive_pair_with_features_20000.csv contains  the non-interactive drug-protein pairs with features
 
 
+Feature extraction:
+- Rcpi toolkit is used to extract drug and protein features
 
 
 
