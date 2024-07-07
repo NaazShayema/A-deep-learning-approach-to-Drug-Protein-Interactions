@@ -4,7 +4,7 @@
 Objective: Our model is designed to forecast interactions between unknown drug-protein pairs by transforming features of these pairs into a condensed latent representation and predicting the specific class of DPIs for those samples.
 
 
-Dataset preparation:
+Dataset preparation: 
 - DrugBank database is used
 - smiles_output_2.csv contains drug_ID and SMILES sequence
 - gene.fasta contains protein_ID and the nucleotide sequence 
@@ -16,6 +16,14 @@ Dataset preparation:
 
 Feature extraction:
 - Rcpi toolkit is used to extract drug and protein features
+
+
+Files:
+- Drug_feature_extractor.ipynb contains the drug feature extraction code
+- Protein_feature_extractor.ipynb contains the protein feature extraction code
+- Interactive_pair_with_featues.ipynb contains the code for the creation of drug-protein interactive pairs with features file
+- Non_interactive_pair_20000.ipynb contains the code for the creation of drug-protein non interactive pairs with features file
+- MDS_Dissertation_Final.ipynb contains the code for the data preprocessing, data splitting, model building, model training and model evaluation
 
 
 
