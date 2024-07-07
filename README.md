@@ -12,6 +12,7 @@ Dataset preparation:
 - non_interacting_pairs.csv contains  the non-interactive drug-protein pairs
 - Interactive_pair_with_features_1.csv contains the drug-protein interactive pairs with features
 - Non_Interactive_pair_with_features_20000.csv contains  the non-interactive drug-protein pairs with features
+- All other files used in this project is available in DrugBank database
 
 
 Feature extraction:
