@@ -34,6 +34,9 @@ Files:
 - MDS_Dissertation_Final.ipynb contains the code for the data preprocessing, data splitting, model building, model training and model evaluation
 
 
+Proposed architecture: Our proposed method leverages a deep learning model to predict drug-protein interactions (DPI). This model combines Conv1D, LSTM, and Dense layers to effectively capture both local and sequential patterns in the data, facilitating accurate DPI prediction. The extracted structural chemical characteristics of drug-protein pairs undergo analysis within our suggested framework, comprising a feature extraction stage succeeded by a classification stage. Details regarding the feature extraction and classification stages are provided in MDS_Dissertation_Final.ipynb
+
+
 Experimental Result and Analysis:
 - The proposed method employs 26881 samples for training and 2987 samples for validation. The graph for training and validation accuracy over the epochs helps in assessing the model's performance and diagnosing potential issues such as overfitting or underfitting. And, we observe training accuracy is higher than the validation accuracy. This graph also shows how the accuracy increases over the epochs for both training and validation phases.
 - The graph for training and validation losses over the epochs helps in assessing the model's performance and diagnosing potential issues such as overfitting (where the validation loss increases while the training loss decreases) or underfitting (where both training and validation losses are high). This graph clearly show a consistent reduction in loss for both phases over the epochs. And, we observe that validation loss is higher than training loss.
