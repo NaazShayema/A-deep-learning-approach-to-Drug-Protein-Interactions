@@ -1,6 +1,11 @@
 # A-deep-learning-approach-to-Drug-Protein-Interactions(DPIs)
 
 
+Abstract: The accurate prediction of drug-protein interactions (DPIs) is crucial for the development of effective pharmaceuticals and the identification of potential off-target effects. This project explores the application of deep learning models to predict DPIs, leveraging their ability to analyze complex datasets and uncover intricate patterns. Drug-protein interactions are fundamental to the efficacy and safety of therapeutic agents. Traditional experimental approaches to studying these interactions can be time-consuming and costly. Computational methods, particularly deep learning models, offer a promising alternative by efficiently processing large datasets and making accurate predictions.
+We implemented a deep learning framework for predicting drug-protein interactions (DPIs) using a combination of convolutional and recurrent neural networks. The model is trained on an extensive dataset of known DPIs, incorporating various features such as chemical structures of drugs, protein sequences, and interaction profiles. The architecture includes multiple 1D convolutional layers to capture spatial features, followed by an LSTM layer to capture sequential information. The model is designed with regularization techniques like dropout to prevent overfitting. And, we utilized the Rcpi toolkit for feature extraction and TensorFlow for model implementation. The performance is evaluated using metrics like percentage accuracy, precision, recall, and micro-averaged F1 score, demonstrating high predictive accuracy and outperforming traditional machine learning approaches. The model's ability to generalize to unseen data underscores its potential for large-scale DPI prediction and drug repurposing efforts.
+
+
+
 Objective: Our model is designed to forecast interactions between unknown drug-protein pairs by transforming features of these pairs into a condensed latent representation and predicting the specific class of DPIs for those samples.
 
 
